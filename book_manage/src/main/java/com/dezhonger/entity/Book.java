@@ -56,4 +56,14 @@ public class Book implements Serializable{
     public void setInfo(String info) {
         this.info = info;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", info='" + info + '\'' +
+                '}';
+    }
 }

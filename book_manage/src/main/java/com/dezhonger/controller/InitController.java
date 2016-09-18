@@ -12,4 +12,15 @@ public class InitController {
     public String index() {
         return "index";
     }
+
+
+    @RequestMapping(value = {"/logincss"})
+    public String indexcss() {
+        return "logincss";
+    }
+
+    @RequestMapping(value = {"/jindutiao"})
+    public String jindutiao() {
+        return "jindutiao";
+    }
 }

@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping(value = "/user")
-public class LoginController {
+public class ApiLoginController {
 
 }
